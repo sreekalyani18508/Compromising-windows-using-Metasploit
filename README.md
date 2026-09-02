@@ -22,7 +22,7 @@ Investigate on the various categories of tools as follows:
 Open terminal and try execute some kali linux commands
 
 ## EXECUTION STEPS AND ITS OUTPUT:
-![Uploading image.png…]()
+<img width="882" height="353" alt="image" src="https://github.com/user-attachments/assets/6082231f-55b1-4b73-9d86-b00c42c6283c" />
 
 Find the attackers ip address using ifconfig
 ## OUTPUT:
