@@ -57,13 +57,14 @@ Check the status of apache2
 Invoke msfconsole:
 ## OUTPUT:
 
-<img width="810" height="462" alt="image" src="https://github.com/user-attachments/assets/61520abc-81c9-411f-ae15-a2784640e49e" />
+<img width="1011" height="630" alt="image" src="https://github.com/user-attachments/assets/e8a29bde-7efb-447e-80ac-c13f9f1f2891" />
 
 
 
 Type help or a question mark "?" to see the list of all available commands you can use inside msfconsole.
 ## OUTPUT:
-<img width="990" height="590" alt="image" src="https://github.com/user-attachments/assets/ab7a0fb2-3fff-49cb-b9f6-242a86edaa8a" />
+<img width="792" height="230" alt="image" src="https://github.com/user-attachments/assets/3d472932-74a5-412b-b2fa-d9fca13e5fc6" />
+
 
 
 
@@ -74,7 +75,7 @@ set LHOST 0.0.0.0
 
 ## OUTPUT:
 
-<img width="627" height="167" alt="image" src="https://github.com/user-attachments/assets/75ca8d70-0ced-426f-84f2-a01cc32cc0f0" />
+<img width="1041" height="760" alt="image" src="https://github.com/user-attachments/assets/50901349-664e-4882-ac00-bf4a02bad9ed" />
 
 
 
@@ -83,18 +84,21 @@ http://192.168.1.2/fun.exe  ( Replace IP address appropriately)
 The file "fun.exe" downloads. 
 ## OUTPUT:
 
-<img width="957" height="765" alt="image" src="https://github.com/user-attachments/assets/b8b3464c-dde7-46fe-ac0c-e21635e0c8dc" />
+<img width="1052" height="667" alt="image" src="https://github.com/user-attachments/assets/b6d3ba75-897e-4d47-ae77-0c3527de7c05" />
+
 
 
 Bypass any warning boxes, double-click the file, and allow it to run.
 ## OUTPUT:
 
-<img width="1536" height="960" alt="image" src="https://github.com/user-attachments/assets/eda95652-4c69-4087-8f24-700e598b9173" />
+<img width="412" height="47" alt="image" src="https://github.com/user-attachments/assets/c543a4bb-30e1-45bf-8f42-396d61288d97" />
+
 
 
 On kali/parrot give the command exploit
 ## OUTPUT:
-<img width="387" height="36" alt="image" src="https://github.com/user-attachments/assets/67d1cc1e-93be-4dd7-8f2f-50ada7bf2178" />
+<img width="483" height="157" alt="image" src="https://github.com/user-attachments/assets/d1891914-1247-4ac2-9878-cb38e0773d84" />
+
 
 
 
@@ -102,7 +106,8 @@ To see a list of processes, at the meterpreter > prompt, execute this command:
 ps  ⇒ can see the fun.exe process running with pid 1156
 ## OUTPUT:
 
-<img width="385" height="120" alt="image" src="https://github.com/user-attachments/assets/6186c4b4-8187-4c06-a547-a06c00eac8f3" />
+
+<img width="758" height="461" alt="image" src="https://github.com/user-attachments/assets/53076494-e064-4f50-ac85-b4f427ab0389" />
 
 The Metasploit shell is running inside the "fun.exe" process. If the user closes that process, or logs off, the connection will be lost.
 To become more persistent, we'll migrate to a process that will last longer.
@@ -116,8 +121,9 @@ netstat
 A list of network connections appears, including one to a remote port of 4444, as highlighted in the image below.
 Notice the "PID/Program name" value for this connection, which is redacted 
 ## OUTPUT:
-<img width="618" height="370" alt="image" src="https://github.com/user-attachments/assets/852ccb87-423d-4a47-8e45-bae91683bc83" />
 
+
+<img width="397" height="47" alt="image" src="https://github.com/user-attachments/assets/ed290291-c73e-4849-8be1-4be4d37e782f" />
 
 
 Post Exploitation
@@ -127,6 +133,7 @@ keyscan_start	Begins capturing keys typed in the target. On the Windows target, 
 
 <img width="2171" height="724" alt="image" src="https://github.com/user-attachments/assets/1fd11882-7fa1-4535-9f73-ef626726abf1" />
 
+<img width="397" height="47" alt="image" src="https://github.com/user-attachments/assets/ed290291-c73e-4849-8be1-4be4d37e782f" />
 
 
 keyscan_dump	Shows the keystrokes captured so far
