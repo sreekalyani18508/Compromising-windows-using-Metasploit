@@ -125,14 +125,15 @@ The target is now owned. Following are meterpreter commands for key capturing in
 keyscan_start	Begins capturing keys typed in the target. On the Windows target, open Notepad and type in some text, such as your name.
 ## OUTPUT:
 
-<img width="322" height="41" alt="image" src="https://github.com/user-attachments/assets/ef0ff9ae-b974-4dc0-b695-e3fe7379b1fd" />
+<img width="2171" height="724" alt="image" src="https://github.com/user-attachments/assets/1fd11882-7fa1-4535-9f73-ef626726abf1" />
 
 
 
 keyscan_dump	Shows the keystrokes captured so far
 ## OUTPUT:
 
-<img width="431" height="102" alt="image" src="https://github.com/user-attachments/assets/51707f1e-5fc4-4940-9f11-02b201679813" />
+<img width="1541" height="1020" alt="image" src="https://github.com/user-attachments/assets/1c8f9480-3860-4768-8b38-99a7f2bdde37" />
+
 
 ## RESULT:
 The Metasploit framework is  used to compromise windows and is examined successfully.
