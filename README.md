@@ -135,7 +135,6 @@ keyscan_start	Begins capturing keys typed in the target. On the Windows target, 
 
 <img width="2171" height="724" alt="image" src="https://github.com/user-attachments/assets/1fd11882-7fa1-4535-9f73-ef626726abf1" />
 
-<img width="397" height="47" alt="image" src="https://github.com/user-attachments/assets/ed290291-c73e-4849-8be1-4be4d37e782f" />
 
 
 keyscan_dump	Shows the keystrokes captured so far
